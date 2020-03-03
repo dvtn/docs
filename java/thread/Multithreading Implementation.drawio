@@ -1,1 +1,52 @@
-<mxfile host="www.draw.io" modified="2020-03-03T13:58:18.612Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" version="12.7.9" etag="TU6OsCZ-xoJaqwR5QT7L" type="github"><diagram id="8A5U56gqIYshXUuPW4Q0">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-03-03T14:26:44.454Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="skFLGkagKfZW_dSyQqqJ" version="12.7.9" type="github">
+  <diagram id="8A5U56gqIYshXUuPW4Q0" name="Page-1">
+    <mxGraphModel dx="946" dy="561" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IVrDd058BvaAzWlPe3zR-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;strokeColor=#82b366;fillColor=#9AC7BF;gradientColor=#FFFFCC;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="41" y="72" width="733" height="516" as="geometry" />
+        </mxCell>
+        <mxCell id="IVrDd058BvaAzWlPe3zR-2" value="实现多线程的方式" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="52" y="62" width="306" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="IVrDd058BvaAzWlPe3zR-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;align=left;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="52" y="140" width="352" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="IVrDd058BvaAzWlPe3zR-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;align=left;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="427" y="141" width="329" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="IVrDd058BvaAzWlPe3zR-5" value="&amp;nbsp; &amp;nbsp;&amp;nbsp;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;align=left;gradientColor=#ffa500;fillColor=#ffcd28;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="49" y="480" width="722" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="IVrDd058BvaAzWlPe3zR-6" value="方式1：继承Thread类" style="text;html=1;strokeColor=#005700;fillColor=#008a00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="161" y="117" width="143" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IVrDd058BvaAzWlPe3zR-7" value="方式2：实现Runnable接口" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="529" y="117" width="149" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IVrDd058BvaAzWlPe3zR-8" value="1.自定义类(例如：MyThread)继承Thread类;&lt;br&gt;2.在MyThread类中重写run()方法；&lt;br&gt;3.创建MyThread类的对象；&lt;br&gt;4.启动线程对象；" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="76" y="192" width="288" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="IVrDd058BvaAzWlPe3zR-9" value="步骤：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="76" y="176" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IVrDd058BvaAzWlPe3zR-10" value="步骤：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="451" y="170" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IVrDd058BvaAzWlPe3zR-11" value="1.自定义类(例如：MyRunnable)实现Runnable接口;&lt;br&gt;2.在MyRunnable类中重写run()方法；&lt;br&gt;3.创建MyRunnable类的对象；&lt;br&gt;4.创建Thread类对象实例，并把第3步的对象作为构造参数传递；" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="451" y="196" width="288" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="IVrDd058BvaAzWlPe3zR-12" value="问题：&lt;br&gt;1.为什么要重写run()方法？&lt;br&gt;&amp;nbsp; &amp;nbsp;run()方法里面封装的是被线程执行的代码；&lt;br&gt;2.启动线程对象用的是哪个方法？&lt;br&gt;&amp;nbsp; &amp;nbsp;start()&lt;br&gt;3.run()和start()方法区别？&lt;br&gt;&amp;nbsp; &amp;nbsp;run()直接调用仅仅是普通方法；&lt;br&gt;&amp;nbsp; &amp;nbsp;start()先启动线程，再由JVM调用run()方法；" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=12;align=left;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="65" y="278.5" width="333" height="174.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IVrDd058BvaAzWlPe3zR-13" value="问题：有了方式1，为什么还要方式2呢？&lt;br&gt;1.可以避免由于Java单继承带来的局限性；&lt;br&gt;2.适合多个相同程序的代码去处理同一个资源的情况，把线程与程序的代码数据有效分离，较好的体现了面向对象的设计思想。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="83.5" y="461" width="648" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="IVrDd058BvaAzWlPe3zR-14" value="作者：独孤求败" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="264" y="90" width="109" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
