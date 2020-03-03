@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-03T12:37:54.660Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="7woYQHKmDLUeJtRJ5c8L" version="12.7.9" type="github">
+<mxfile host="www.draw.io" modified="2020-03-03T12:38:34.818Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="eTyCdGvttrRQ3sI3CoTz" version="12.7.9" type="github">
   <diagram id="YGDEjbzQZ8Zx6u0i9YZl" name="Page-1">
     <mxGraphModel dx="946" dy="561" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -74,8 +74,8 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="otFplON7Si6uef0mkL3L-21" value="作者：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" vertex="1" parent="1">
-          <mxGeometry x="150.5" y="85" width="40" height="20" as="geometry" />
+        <mxCell id="otFplON7Si6uef0mkL3L-21" value="作者：独孤求败" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="150.5" y="85" width="88.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
