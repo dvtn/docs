@@ -1,1 +1,83 @@
-<mxfile host="www.draw.io" modified="2020-03-03T08:27:23.332Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" version="12.7.9" etag="mIORTvTIOwMOfVSlJnR8" type="github"><diagram id="YGDEjbzQZ8Zx6u0i9YZl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-03-03T12:37:54.660Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="7woYQHKmDLUeJtRJ5c8L" version="12.7.9" type="github">
+  <diagram id="YGDEjbzQZ8Zx6u0i9YZl" name="Page-1">
+    <mxGraphModel dx="946" dy="561" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="otFplON7Si6uef0mkL3L-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#f9f7ed;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="19" y="20" width="816" height="485" as="geometry" />
+        </mxCell>
+        <mxCell id="otFplON7Si6uef0mkL3L-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otFplON7Si6uef0mkL3L-1" target="otFplON7Si6uef0mkL3L-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="otFplON7Si6uef0mkL3L-4" value="start()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=10;" vertex="1" connectable="0" parent="otFplON7Si6uef0mkL3L-3">
+          <mxGeometry x="-0.1852" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otFplON7Si6uef0mkL3L-1" value="新建&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;创建线程对象" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="57" y="162" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="otFplON7Si6uef0mkL3L-2" value="就绪&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;有执行资格，无执行权&lt;br style=&quot;font-size: 10px;&quot;&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="259" y="162" width="211" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="otFplON7Si6uef0mkL3L-11" value="run()结束&lt;br style=&quot;font-size: 10px;&quot;&gt;中断线程" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="otFplON7Si6uef0mkL3L-5" target="otFplON7Si6uef0mkL3L-9">
+          <mxGeometry x="-0.2121" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otFplON7Si6uef0mkL3L-13" value="sleep()&lt;br style=&quot;font-size: 10px;&quot;&gt;wait()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otFplON7Si6uef0mkL3L-5" target="otFplON7Si6uef0mkL3L-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="otFplON7Si6uef0mkL3L-5" value="运行&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;有执行资格，有执行权" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="370" y="298" width="193" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="otFplON7Si6uef0mkL3L-8" value="" style="endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.876;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="1" source="otFplON7Si6uef0mkL3L-2" target="otFplON7Si6uef0mkL3L-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="474" as="sourcePoint" />
+            <mxPoint x="449" y="424" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otFplON7Si6uef0mkL3L-10" value="获取到了CPU执行权" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=10;" vertex="1" connectable="0" parent="otFplON7Si6uef0mkL3L-8">
+          <mxGeometry x="-0.1778" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otFplON7Si6uef0mkL3L-9" value="死亡&lt;br style=&quot;font-size: 10px;&quot;&gt;对象变成垃圾，等待被回收" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="647" y="298" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="otFplON7Si6uef0mkL3L-12" value="阻塞&lt;br style=&quot;font-size: 10px;&quot;&gt;没有执行资格&lt;br style=&quot;font-size: 10px;&quot;&gt;没有执行权" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="89" y="298" width="163" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="otFplON7Si6uef0mkL3L-15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otFplON7Si6uef0mkL3L-12" target="otFplON7Si6uef0mkL3L-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="478" as="sourcePoint" />
+            <mxPoint x="449" y="428" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otFplON7Si6uef0mkL3L-16" value="sleep()时间到&lt;br style=&quot;font-size: 10px;&quot;&gt;notify()唤醒" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=10;" vertex="1" connectable="0" parent="otFplON7Si6uef0mkL3L-15">
+          <mxGeometry x="-0.1357" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otFplON7Si6uef0mkL3L-17" value="线程的生命周期" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="57" y="41" width="273" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="otFplON7Si6uef0mkL3L-18" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="otFplON7Si6uef0mkL3L-5" target="otFplON7Si6uef0mkL3L-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="264" as="sourcePoint" />
+            <mxPoint x="449" y="214" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otFplON7Si6uef0mkL3L-19" value="被别人抢走CPU执行权" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=10;" vertex="1" connectable="0" parent="otFplON7Si6uef0mkL3L-18">
+          <mxGeometry x="0.2398" y="-3" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otFplON7Si6uef0mkL3L-21" value="作者：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="150.5" y="85" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
