@@ -1,0 +1,296 @@
+<mxfile host="www.draw.io" modified="2020-03-11T13:33:32.957Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="brhXFRj_-6HrUQ620fkA" version="12.8.2" type="github">
+  <diagram id="v1QouSHMc8vx2q702Wb2" name="Page-1">
+    <mxGraphModel dx="1186" dy="860" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="21" y="23" width="1142" height="1127" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-84" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=9;align=center;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="21" y="23" width="1141" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-83" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="22" y="379" width="1140" height="376" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-76" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="22" y="89" width="1140" height="288" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-2" value="Socket 通信原理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="40" y="33" width="183" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-3" value="作者：独孤求败 &amp;nbsp; &amp;nbsp; &amp;nbsp; 邮箱：david.tian@live.com" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="50" y="69" width="172" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
+          <mxGeometry x="338" y="109" width="145" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="663" y="109" width="145" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-6" value="计算机A&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;QQ&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;Socket&lt;br style=&quot;font-size: 12px;&quot;&gt;(IP和端口)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="372" y="138" width="77" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-8" value="计算机B&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;br style=&quot;font-size: 12px&quot;&gt;QQ&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;br style=&quot;font-size: 12px&quot;&gt;Socket&lt;br style=&quot;font-size: 12px&quot;&gt;(IP和端口)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="698" y="138" width="77" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-9" value="" style="endArrow=classic;html=1;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="EdmEcXSKv7ZEfnQs7msw-4" target="EdmEcXSKv7ZEfnQs7msw-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="505" y="348" as="sourcePoint" />
+            <mxPoint x="555" y="298" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="411" y="334" />
+              <mxPoint x="736" y="334" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-10" value="在某种协议下通过IO流传输" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=12;" parent="EdmEcXSKv7ZEfnQs7msw-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.0427" relative="1" as="geometry">
+            <mxPoint x="12" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-11" value="&lt;div&gt;Socket: 网络套接字&lt;/div&gt;&lt;div&gt;Socket 编程，网络编程，套接字编程&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Socket由IP地址和端口组成&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Socket原理机制：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 通信两端都有Socket&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 网络通信其实就是Socket间的通信&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 数据在两个Socket间通过IO传输&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="46" y="125" width="256" height="191" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="385" y="396" width="180" height="227" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="585" y="396" width="181" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-15" value="发送数据&lt;br&gt;&lt;br&gt;创建发送端Socket对象&lt;br&gt;创建数据并打包&lt;br&gt;发送数据&lt;br&gt;释放资源" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="420.5" y="400.5" width="128" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-18" value="" style="endArrow=classic;html=1;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="EdmEcXSKv7ZEfnQs7msw-13" target="EdmEcXSKv7ZEfnQs7msw-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="378" y="753.5" as="sourcePoint" />
+            <mxPoint x="703" y="753.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="475" y="722.5" />
+              <mxPoint x="547" y="722.5" />
+              <mxPoint x="676" y="722.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-19" value="UDP协议" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=12;" parent="EdmEcXSKv7ZEfnQs7msw-18" vertex="1" connectable="0">
+          <mxGeometry x="-0.0427" relative="1" as="geometry">
+            <mxPoint x="6" y="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-20" value="接收数据&lt;br&gt;&lt;br&gt;创建接收端Socket对象&lt;br&gt;创建接收的数据包&lt;br&gt;接收数据&lt;br&gt;解析数据，并在控制台显示&lt;br&gt;释放资源" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="602" y="403" width="128" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-23" value="&lt;span style=&quot;white-space: normal&quot;&gt;数据&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;IP:127.0.0.1&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;端口:10086&lt;br&gt;&lt;/span&gt;101010101010&lt;span style=&quot;white-space: normal&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="606" y="530.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-24" value="&lt;span style=&quot;text-align: left ; white-space: normal&quot;&gt;数据&lt;/span&gt;&lt;br style=&quot;text-align: left ; white-space: normal&quot;&gt;&lt;span style=&quot;text-align: left ; white-space: normal&quot;&gt;101010101010&lt;/span&gt;&lt;br style=&quot;text-align: left ; white-space: normal&quot;&gt;&lt;span style=&quot;text-align: left ; white-space: normal&quot;&gt;IP:127.0.0.1&lt;/span&gt;&lt;br style=&quot;text-align: left ; white-space: normal&quot;&gt;&lt;span style=&quot;text-align: left ; white-space: normal&quot;&gt;端口:10086&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="402" y="517.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-25" value="" style="endArrow=classic;html=1;fontSize=12;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="501" y="564.5" as="sourcePoint" />
+            <mxPoint x="635" y="564.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-26" value="" style="endArrow=classic;html=1;fontSize=12;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="493" y="577.5" as="sourcePoint" />
+            <mxPoint x="636" y="577.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-27" value="&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; color: rgb(63, 127, 95); font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 9px;&quot;&gt;&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space: pre; font-size: 9px;&quot;&gt;  &lt;/span&gt;&lt;/span&gt;//创建发送端Socket对象&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; DatagramSocket &lt;span style=&quot;color: rgb(106, 62, 62); font-size: 9px;&quot;&gt;ds&lt;/span&gt; = &lt;span style=&quot;color: rgb(127, 0, 85); font-size: 9px;&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;new&lt;/b&gt;&lt;/span&gt; DatagramSocket();&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#3f7f5f&quot; style=&quot;font-size: 9px;&quot;&gt;//创建数据并打包&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#3f7f5f&quot; style=&quot;font-size: 9px;&quot;&gt;//DatagramPacket(byte[] &lt;/font&gt;&lt;span style=&quot;color: rgb(63, 127, 95); text-decoration: underline; font-size: 9px;&quot;&gt;buf&lt;/span&gt;&lt;font color=&quot;#3f7f5f&quot; style=&quot;font-size: 9px;&quot;&gt;, &lt;/font&gt;&lt;span style=&quot;color: rgb(63, 127, 95); text-decoration: underline; font-size: 9px;&quot;&gt;int&lt;/span&gt;&lt;font color=&quot;#3f7f5f&quot; style=&quot;font-size: 9px;&quot;&gt; length, InetAddress address, &lt;/font&gt;&lt;span style=&quot;color: rgb(63, 127, 95); text-decoration: underline; font-size: 9px;&quot;&gt;int&lt;/span&gt;&lt;font color=&quot;#3f7f5f&quot; style=&quot;font-size: 9px;&quot;&gt; port)&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#3f7f5f&quot; style=&quot;font-size: 9px;&quot;&gt;//创建数据&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space: pre; font-size: 9px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(127, 0, 85); font-size: 9px;&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;byte&lt;/b&gt;&lt;/span&gt;[] &lt;span style=&quot;color: rgb(106, 62, 62); font-size: 9px;&quot;&gt;bytes&lt;/span&gt; = &lt;span style=&quot;color: rgb(42, 0, 255); font-size: 9px;&quot;&gt;&quot;hello, udp, 我来了&quot;&lt;/span&gt;.getBytes();&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#3f7f5f&quot; style=&quot;font-size: 9px;&quot;&gt;//长度&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b style=&quot;color: rgb(127, 0, 85); font-size: 9px;&quot;&gt;int&lt;/b&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 9px;&quot;&gt; &lt;/span&gt;&lt;font color=&quot;#6a3e3e&quot; style=&quot;font-size: 9px;&quot;&gt;length&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 9px;&quot;&gt; = &lt;/span&gt;&lt;font color=&quot;#6a3e3e&quot; style=&quot;font-size: 9px;&quot;&gt;bytes&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 9px;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 192); font-size: 9px;&quot;&gt;length&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 9px;&quot;&gt;;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#3f7f5f&quot; style=&quot;font-size: 9px;&quot;&gt;//IP地址对象&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;InetAddress &lt;span style=&quot;color: rgb(106, 62, 62); font-size: 9px;&quot;&gt;address&lt;/span&gt; = InetAddress.&lt;i style=&quot;font-size: 9px;&quot;&gt;getByName&lt;/i&gt;(&lt;span style=&quot;color: rgb(42, 0, 255); font-size: 9px;&quot;&gt;&quot;127.0.0.1&quot;&lt;/span&gt;);&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;font color=&quot;#3f7f5f&quot; style=&quot;font-size: 9px;&quot;&gt;//端口&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b style=&quot;color: rgb(127, 0, 85); font-size: 9px;&quot;&gt;int&lt;/b&gt; &lt;span style=&quot;color: rgb(106, 62, 62); font-size: 9px;&quot;&gt;port&lt;/span&gt; = 10086;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;DatagramPacket &lt;span style=&quot;color: rgb(106, 62, 62); font-size: 9px;&quot;&gt;dp&lt;/span&gt; = &lt;span style=&quot;color: rgb(127, 0, 85); font-size: 9px;&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;new&lt;/b&gt;&lt;/span&gt; DatagramPacket(&lt;span style=&quot;color: rgb(106, 62, 62); font-size: 9px;&quot;&gt;bytes&lt;/span&gt;, &lt;span style=&quot;color: rgb(106, 62, 62); font-size: 9px;&quot;&gt;length&lt;/span&gt;,&lt;span style=&quot;color: rgb(106, 62, 62); font-size: 9px;&quot;&gt;address&lt;/span&gt;,&lt;span style=&quot;color: rgb(106, 62, 62); font-size: 9px;&quot;&gt;port&lt;/span&gt;);&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;font color=&quot;#3f7f5f&quot; style=&quot;font-size: 9px;&quot;&gt;//调用Socket对象的方法发送数据包&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;font color=&quot;#3f7f5f&quot; style=&quot;font-size: 9px;&quot;&gt;//public void send(DatagramPacket p)&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: rgb(106, 62, 62); font-size: 9px;&quot;&gt;ds&lt;/span&gt;.send(&lt;span style=&quot;color: rgb(106, 62, 62); font-size: 9px;&quot;&gt;dp&lt;/span&gt;);&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; min-height: 14px; font-size: 9px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(63, 127, 95); font-size: 9px;&quot;&gt;//释放资源&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;color: rgb(106, 62, 62); font-size: 9px;&quot;&gt;ds&lt;/span&gt;.close();&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;spacing=0;" parent="1" vertex="1">
+          <mxGeometry x="27" y="406" width="336" height="262" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-28" value="&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal; color: rgb(63, 127, 95);&quot;&gt;//创建Socket对象&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt;DatagramSocket ds = &lt;/span&gt;&lt;span style=&quot;text-decoration: underline; color: rgb(127, 0, 85); font-size: 9px;&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;new&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt; DatagramSocket(10086);&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal; color: rgb(63, 127, 95);&quot;&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt;//创建数据包&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-decoration: underline; color: rgb(127, 0, 85); font-size: 9px;&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;byte&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt;[] bytes = &lt;/span&gt;&lt;span style=&quot;text-decoration: underline; color: rgb(127, 0, 85); font-size: 9px;&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;new&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;text-decoration: underline; color: rgb(127, 0, 85); font-size: 9px;&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;byte&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt;[1024];&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-decoration: underline; color: rgb(127, 0, 85); font-size: 9px;&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;int&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt; length = bytes.length;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt;DatagramPacket dp = &lt;/span&gt;&lt;span style=&quot;text-decoration: underline; color: rgb(127, 0, 85); font-size: 9px;&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;new&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt; DatagramPacket(bytes, length);&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal; color: rgb(63, 127, 95);&quot;&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt;//调用Socket对象的接收方法接收数据包&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal; color: rgb(63, 127, 95);&quot;&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt;//public void receive(DatagramPacket p)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt;ds.receive(dp); &lt;/span&gt;&lt;span style=&quot;text-decoration: underline; color: rgb(63, 127, 95); font-size: 9px;&quot;&gt;//阻塞方法&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal; color: rgb(63, 127, 95);&quot;&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt;//解析数据包&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal; color: rgb(63, 127, 95);&quot;&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt;//获取对方的IP&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt;InetAddress address = dp.getAddress();&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt;String ip = address.getHostAddress();&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal; color: rgb(63, 127, 95);&quot;&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt;//public byte[] getData():获取数据缓冲区&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal; color: rgb(63, 127, 95);&quot;&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt;//public int getLength():获取数据的实际长度&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-decoration: underline; color: rgb(127, 0, 85); font-size: 9px;&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;byte&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt;[] data = dp.getData();&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-decoration: underline; color: rgb(127, 0, 85); font-size: 9px;&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;int&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt; len = dp.getLength();&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt;String s = &lt;/span&gt;&lt;span style=&quot;text-decoration: underline; color: rgb(127, 0, 85); font-size: 9px;&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;new&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt; String(data,0,len);&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal;&quot;&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt;System.out.println(ip+&lt;/span&gt;&lt;span style=&quot;text-decoration: underline; color: rgb(42, 0, 255); font-size: 9px;&quot;&gt;&quot;传递的数据是：&quot;&lt;/span&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt;+s);&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal; color: rgb(63, 127, 95);&quot;&gt;&lt;span style=&quot;text-decoration: underline; font-size: 9px;&quot;&gt;//释放资源&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-stretch: normal; font-size: 9px; line-height: normal; color: rgb(63, 127, 95);&quot;&gt;&lt;span style=&quot;text-decoration: underline; color: rgb(0, 0, 0); font-size: 9px;&quot;&gt;ds.close();&lt;/span&gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="799" y="396" width="357" height="286" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="21" y="743" width="1142" height="407" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.758;entryY=0.038;entryDx=0;entryDy=0;fontSize=12;horizontal=0;endArrow=none;endFill=0;entryPerimeter=0;" parent="1" source="EdmEcXSKv7ZEfnQs7msw-30" target="EdmEcXSKv7ZEfnQs7msw-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;startArrow=none;startFill=0;endArrow=none;endFill=0;fontSize=9;entryX=0.342;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EdmEcXSKv7ZEfnQs7msw-30" target="EdmEcXSKv7ZEfnQs7msw-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="538" y="1021" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="543" y="995" />
+              <mxPoint x="543" y="995" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.667;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=none;startFill=0;endArrow=none;endFill=0;fontSize=9;" parent="1" source="EdmEcXSKv7ZEfnQs7msw-30" target="EdmEcXSKv7ZEfnQs7msw-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;fontSize=9;" parent="1" source="EdmEcXSKv7ZEfnQs7msw-30" target="EdmEcXSKv7ZEfnQs7msw-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.258;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=none;endFill=0;fontSize=9;" parent="1" source="EdmEcXSKv7ZEfnQs7msw-30" target="EdmEcXSKv7ZEfnQs7msw-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-30" value="服务器&lt;br style=&quot;font-size: 12px;&quot;&gt;ServerSocket&lt;br style=&quot;font-size: 12px;&quot;&gt;IP: 192.168.12.100&lt;br style=&quot;font-size: 12px;&quot;&gt;port: 8888" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=left;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" parent="1" vertex="1">
+          <mxGeometry x="465" y="798" width="156" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="EdmEcXSKv7ZEfnQs7msw-31" target="EdmEcXSKv7ZEfnQs7msw-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-31" value="客户端1&lt;br&gt;Socket" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="164" y="1027" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-32" value="客户端2" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="502" y="1024" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-33" value="&lt;span style=&quot;white-space: normal&quot;&gt;客户端3&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="795" y="1024" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-35" value="Socket &amp;nbsp;socket = &amp;nbsp;new &amp;nbsp;Socket(&quot;192.168.12.100&quot;,8888)&lt;br&gt;OutputStream os = socket.getOutputStream();&lt;br&gt;os.write(&quot;Hello, TCP, 我来了“.getBytes())&lt;br&gt;&lt;br&gt;socket.close();" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="278" y="957" width="235" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-49" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="224" y="924" width="27" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-44" value="" style="curved=1;endArrow=none;html=1;fontSize=9;dashed=1;endFill=0;" parent="EdmEcXSKv7ZEfnQs7msw-49" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="88" as="sourcePoint" />
+            <mxPoint x="17" y="-43" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="17" y="53" />
+              <mxPoint />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-47" value="" style="curved=1;endArrow=none;html=1;fontSize=9;dashed=1;endFill=0;" parent="EdmEcXSKv7ZEfnQs7msw-49" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="15" y="90" as="sourcePoint" />
+            <mxPoint x="22" y="-41" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="22" y="55" />
+              <mxPoint x="5" y="2" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-48" value="" style="curved=1;endArrow=none;html=1;fontSize=9;dashed=1;endFill=0;" parent="EdmEcXSKv7ZEfnQs7msw-49" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="91" as="sourcePoint" />
+            <mxPoint x="27" y="-40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="27" y="56" />
+              <mxPoint x="10" y="3" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-50" value="ServerSocket serverSocket = new ServerSocket(8888);&lt;br&gt;Socket socket = serverSocket.accept();//阻塞了&lt;br&gt;&lt;br&gt;InputStream is = socket.getInputStream();&lt;br&gt;byte[] bytes = new byte[1024];&lt;br&gt;int len = is.read(bytes);&lt;br&gt;String str = new String(bytes, 0, len);&lt;br&gt;&lt;br&gt;socket.close();" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="648" y="750" width="246" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontSize=9;" parent="1" source="EdmEcXSKv7ZEfnQs7msw-51" target="EdmEcXSKv7ZEfnQs7msw-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-51" value="getOutputStream" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="71" y="993" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontSize=9;" parent="1" source="EdmEcXSKv7ZEfnQs7msw-52" target="EdmEcXSKv7ZEfnQs7msw-55" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-52" value="OutputStream" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="58" y="946" width="66" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-55" value="write" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="162" y="946" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-58" value="getInputStream" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="308" y="753" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-59" value="InputStream" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="308" y="789" width="74" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-60" value="read" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="325" y="828" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-61" value="" style="endArrow=classic;html=1;dashed=1;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EdmEcXSKv7ZEfnQs7msw-58" target="EdmEcXSKv7ZEfnQs7msw-59" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="945" as="sourcePoint" />
+            <mxPoint x="380" y="895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-62" value="" style="endArrow=classic;html=1;dashed=1;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EdmEcXSKv7ZEfnQs7msw-59" target="EdmEcXSKv7ZEfnQs7msw-60" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="945" as="sourcePoint" />
+            <mxPoint x="380" y="895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-66" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="542" y="945" width="27" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-67" value="" style="curved=1;endArrow=none;html=1;fontSize=9;dashed=1;endFill=0;" parent="EdmEcXSKv7ZEfnQs7msw-66" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="72.28571428571428" as="sourcePoint" />
+            <mxPoint x="17" y="-35.32142857142857" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="17" y="43.535714285714285" />
+              <mxPoint />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-68" value="" style="curved=1;endArrow=none;html=1;fontSize=9;dashed=1;endFill=0;" parent="EdmEcXSKv7ZEfnQs7msw-66" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="15" y="73.92857142857143" as="sourcePoint" />
+            <mxPoint x="22" y="-33.67857142857143" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="22" y="45.17857142857142" />
+              <mxPoint x="5" y="1.6428571428571428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-69" value="" style="curved=1;endArrow=none;html=1;fontSize=9;dashed=1;endFill=0;" parent="EdmEcXSKv7ZEfnQs7msw-66" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="74.75" as="sourcePoint" />
+            <mxPoint x="27" y="-32.857142857142854" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="27" y="46" />
+              <mxPoint x="10" y="2.4642857142857144" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-72" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="823" y="939" width="27" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-73" value="" style="curved=1;endArrow=none;html=1;fontSize=9;dashed=1;endFill=0;" parent="EdmEcXSKv7ZEfnQs7msw-72" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="72.28571428571428" as="sourcePoint" />
+            <mxPoint x="17" y="-35.32142857142857" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="17" y="43.535714285714285" />
+              <mxPoint />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-74" value="" style="curved=1;endArrow=none;html=1;fontSize=9;dashed=1;endFill=0;" parent="EdmEcXSKv7ZEfnQs7msw-72" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="15" y="73.92857142857143" as="sourcePoint" />
+            <mxPoint x="22" y="-33.67857142857143" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="22" y="45.17857142857142" />
+              <mxPoint x="5" y="1.6428571428571428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-75" value="" style="curved=1;endArrow=none;html=1;fontSize=9;dashed=1;endFill=0;" parent="EdmEcXSKv7ZEfnQs7msw-72" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="74.75" as="sourcePoint" />
+            <mxPoint x="27" y="-32.857142857142854" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="27" y="46" />
+              <mxPoint x="10" y="2.4642857142857144" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-81" value="UDP 通信原理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="44.5" y="393" width="183" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EdmEcXSKv7ZEfnQs7msw-82" value="TCP通信原理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="48" y="759" width="183" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
